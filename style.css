@@ -1,0 +1,448 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.white{
+  width: 10%;
+}
+.taskbar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 0%;
+  position: absolute;
+  width: 100%;
+  
+  z-index: 1;
+  
+}
+.taskbar nav{
+  color:#fafafa00;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 20px;
+  margin-top: -500px;
+  height: 8vh;
+}
+.taskbar img {
+  width: 300px;
+}
+.taskbar img {
+    width: 150px;
+    border: 10px solid #ffffff00;
+}
+.navbuttons, .navbuttons1   {
+    margin-top: -4.5%;
+    margin-left: 35%;
+    position: absolute;
+}
+.navbuttons a {
+    color:#ffffff00;
+    text-decoration: none; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.navbuttons1 a {
+  color: white;
+  text-decoration: none; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.navbuttons a:hover {
+    color: #00204A;
+    text-decoration: underline;
+}
+.navbuttons1 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.video h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#af1010;
+    font-size: 40px;
+    margin-top: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0%;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  background-color: #820c0c5b;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.596);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+.regelgeving {
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.Regelgeving {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Werkhouding1 {
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10vh;
+  position: absolute;
+}
+.regel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.regel h1 {
+  margin-top: -5%;
+}
+.regel-info{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 0%;
+
+}
+.regel-info p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  width: 100%;
+  font-size: 25px;
+  position: relative;
+  margin-left: 0%;
+}
+
+.regel-info p:hover{
+  text-decoration: underline ;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+.houdingbutton {
+  background-color: white;
+  filter: blur(10);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 100px;
+  width: 20%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  height: 70%;
+  
+}
+.houdingbutton {
+  background-color: white;
+  
+  filter: blur(10);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 100px;
+  width: 30%;
+  margin-left: 2%;
+  display: none;
+  height: 70%;
+  
+}
+.kenmerkenbutton
+{
+  background-color: white;
+  
+  filter: blur(10);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 100px;
+  width: 30%;
+  margin-left: 35%;
+  display: none;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  height: 70%;
+}
+.conditiebutton {
+  background-color: white;
+  filter: blur(10);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 100px;
+  width: 30%;
+  margin-left: 68%;
+  display: none;
+  height: 70%;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.werkplek {
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  opacity: 3;
+
+}
+.werkplek h1 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  font-size: 2em;
+}
+
+.werkplek h3 {
+  color: black  ;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.werkbtn {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  margin-bottom: -40%;
+}
+.werkbtn:hover {
+  text-decoration: underline;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff00;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef00;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eeeeee00;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
